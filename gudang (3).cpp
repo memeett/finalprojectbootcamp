@@ -298,6 +298,8 @@ void deleteItems(){
 			break;
 		}	
 	}
+	totalProduk = 0;
+    memset(produk, 0, sizeof(produk));
 	scanItems();
 }
 
